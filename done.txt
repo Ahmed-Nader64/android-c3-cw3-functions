@@ -1,0 +1,25 @@
+public class Main
+{
+    public static void main(String[] args) {
+        
+        int student1 = 20;
+        int student2 = 25;
+        System.out.println(totalGrade(student1,student2));
+        
+        int temp = 20;
+        temperature(temp);
+        
+    }
+    public static int totalGrade(int num1,int num2){
+        return num1+num2;
+    }
+    
+    public static void temperature(int temp1){
+        if (temp1 <=20) {
+            System.out.println("Cold");
+        }else if(temp1>20){
+            System.out.println("Hot");
+        }
+    }
+    
+}
